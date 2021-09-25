@@ -1,0 +1,8 @@
+t1 = open("text1.txt")
+t2 = open("text2.txt")
+rt1 = t1.read()
+rt2 = t2.read()
+wt1 = open("text1.txt",'w')
+wt2 = open("text2.txt",'w')
+wt1.write(rt2)
+wt2.write(rt1)
